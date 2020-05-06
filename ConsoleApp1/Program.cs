@@ -23,8 +23,9 @@ namespace ConsoleApp1
         }
         static public double Example2(double P, double a, double b, double c)
         {
+            P = P / 2;
             double S;
-            S = (Math.Sqrt(P*(P-a)*(P-b)*(P-c)))/2;
+            S = Math.Sqrt(P*(P-a)*(P-b)*(P-c));
             return P;
         }
 
