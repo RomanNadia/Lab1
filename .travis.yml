@@ -1,0 +1,9 @@
+language: csharp
+solution: travis-mono-test.sln
+
+jobs:
+  include:
+    - dotnet: 2.1.502
+      mono: none
+      env: DOTNETCORE=2
+    - mono: latest
