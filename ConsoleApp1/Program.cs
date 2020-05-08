@@ -25,7 +25,7 @@ namespace ConsoleApp1
         {
             P = P / 2;
             double S;
-            S = Math.Sqrt(P*(P-a)*(P-b)*(P-c));
+            S = Math.Sqrt(P * (P - a) * (P - b) * (P - c));
             return P;
         }
 
